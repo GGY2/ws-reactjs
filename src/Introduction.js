@@ -1,7 +1,8 @@
 import React from 'react';
 import './Introduction.css';
 import {Card, Button, Container} from 'react-bootstrap';
-import batman from '../src/images/batman.jpg'
+import deadpool from './images/deadpool.jpg'
+import batman from './images/batman.jpg'
 
 function Introduction(){    
     
@@ -24,7 +25,7 @@ function Introduction(){
             margin: '20px',
             border: 'none'
             }}>
-                <Card.Img variant="top" src="./images/deadpool.jpg" />
+                <Card.Img variant="top" src={deadpool} />
                 <Card.Body>
                     <Card.Title>Deadpool 4</Card.Title>
                     <Card.Text>
